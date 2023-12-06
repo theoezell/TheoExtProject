@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">theo</value>
-    <value name="createdDate">1701890302525</value>
-    <value name="lastModifiedDate">1701890302525</value>
+    <value name="lastModifiedBy">theo</value>
+    <value name="lastModifiedDate">1701890512261</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -58,8 +57,20 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Utilities</value>
+          <value name="groupName">Utilities;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">Utilities:isEvenNumber</value>
+          <value name="serviceName">Utilities:isEvenNumber</value>
+          <value name="displayName">isEvenNumber</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>

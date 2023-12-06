@@ -7,3 +7,13 @@ packages:
   gitUrl: https://github.com/theoezell/TheoExtProject
   gitUsername: theoezell
   gitBranch: main
+- name: Utilities
+  gitServerName: TheoGit
+  gitUrl: https://github.com/theoezell
+  gitUsername: theoezell
+  gitBranch: master
+services:
+- serviceName: project.theoext.integrations:firstTestFlow
+  packages:
+  - name: TheoExtProject
+    version: "1.0"
