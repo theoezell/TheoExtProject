@@ -46,12 +46,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">theo</value>
-    <value name="lastModifiedDate">1701890512261</value>
+    <value name="lastModifiedDate">1701900299325</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
+      <value name="id">030bba44d3b44f9db3963be1302db351</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">TheoEdgeRuntime</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">firstTestFlow</value>
     <value name="description"></value>
@@ -71,6 +71,7 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>

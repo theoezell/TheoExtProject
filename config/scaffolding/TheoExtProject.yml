@@ -17,3 +17,17 @@ services:
   packages:
   - name: TheoExtProject
     version: "1.0"
+  - name: Utilities
+    version: "1.0"
+- serviceName: Utilities:isEvenNumber
+  packages:
+  - name: Utilities
+    version: "1.0"
+- serviceName: pub.math:divideInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
+- serviceName: pub.math:divideFloats
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
