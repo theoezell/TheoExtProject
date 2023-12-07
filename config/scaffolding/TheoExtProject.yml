@@ -31,3 +31,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.656
+- serviceName: project.theoext.integrations:testJDBC
+  packages:
+  - name: TheoExtProject
+    version: "1.0"
+  - name: Utilities
+    version: "1.0"
