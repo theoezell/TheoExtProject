@@ -55,18 +55,14 @@ configurationVariables:
   : "10"
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.user
   : myDbUser
-  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.driverType
-  : Progress® DataDirect®
-  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.portNumber
-  : "1433"
-  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionManagerSettings.expireTimeout
-  : "1000"
-  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.otherProperties
-  : loginTimeout=60;
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.databaseName
   : myDatabase
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionManagerSettings.blockingTimeout
   : "1000"
+  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.driverType
+  : Progress® DataDirect®
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.password
   : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionManagerSettings.heartBeatInterval
@@ -79,12 +75,16 @@ configurationVariables:
   : "0"
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionManagerSettings.poolIncrementSize
   : "1"
+  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionManagerSettings.expireTimeout
+  : "1000"
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.dbType
   : MSSQL
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.networkProtocol
   : ""
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.otherProperties
+  : loginTimeout=60;
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionManagerSettings.poolable
   : "false"
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.trustStore
