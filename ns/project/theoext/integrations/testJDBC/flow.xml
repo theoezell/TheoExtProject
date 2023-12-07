@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getAllCustomers" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>
