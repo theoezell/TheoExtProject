@@ -46,6 +46,12 @@ services:
     version: "1.0"
   - name: Utilities
     version: "1.0"
+- serviceName: project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getAllCustomers
+  packages:
+  - name: TheoExtProject
+    version: "1.0"
+  - name: Utilities
+    version: "1.0"
 configurationVariables:
   ? artConnection.TheoExtProject.project.theoext.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.sqlServerConn.connectionSettings.transactionType
   : NO_TRANSACTION
